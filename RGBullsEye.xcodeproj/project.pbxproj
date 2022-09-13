@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA7D1D628CFE28B005F0FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7D1D528CFE28B005F0FF4 /* Assets.xcassets */; };
+		6BA7D1D828CFE2B1005F0FF4 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1D728CFE2B1005F0FF4 /* ColorCircle.swift */; };
+		6BA7D1DA28CFE411005F0FF4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1D928CFE411005F0FF4 /* ViewExtension.swift */; };
+		6BA7D1DD28CFE82D005F0FF4 /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1DC28CFE82D005F0FF4 /* NeuButtonStyle.swift */; };
+		6BA7D1E028D13639005F0FF4 /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1DF28D13639005F0FF4 /* BevelText.swift */; };
 		CD25DEBF253C26A200A218D4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25DEBE253C26A200A218D4 /* Game.swift */; };
 		CD25DEC3253C279400A218D4 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25DEC2253C279400A218D4 /* RGB.swift */; };
 		CD25DEC6253C299400A218D4 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25DEC5253C299400A218D4 /* ColorExtension.swift */; };
 		CD405EFB2536AA700062B1CC /* RGBullsEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD405EFA2536AA700062B1CC /* RGBullsEyeApp.swift */; };
 		CD405EFD2536AA700062B1CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD405EFC2536AA700062B1CC /* ContentView.swift */; };
-		CD405EFF2536AA720062B1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD405EFE2536AA720062B1CC /* Assets.xcassets */; };
 		CD405F022536AA720062B1CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD405F012536AA720062B1CC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA7D1D528CFE28B005F0FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA7D1D728CFE2B1005F0FF4 /* ColorCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		6BA7D1D928CFE411005F0FF4 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		6BA7D1DC28CFE82D005F0FF4 /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		6BA7D1DF28D13639005F0FF4 /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
 		CD25DEBE253C26A200A218D4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CD25DEC2253C279400A218D4 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		CD25DEC5253C299400A218D4 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		CD405EF72536AA700062B1CC /* RGBullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD405EFA2536AA700062B1CC /* RGBullsEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBullsEyeApp.swift; sourceTree = "<group>"; };
 		CD405EFC2536AA700062B1CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD405EFE2536AA720062B1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD405F012536AA720062B1CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD405F032536AA720062B1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BA7D1DB28CFE81B005F0FF4 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7D1DC28CFE82D005F0FF4 /* NeuButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6BA7D1DE28D13625005F0FF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD405EFC2536AA700062B1CC /* ContentView.swift */,
+				6BA7D1D728CFE2B1005F0FF4 /* ColorCircle.swift */,
+				6BA7D1DF28D13639005F0FF4 /* BevelText.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CD405EEE2536AA700062B1CC = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +84,12 @@
 		CD405EF92536AA700062B1CC /* RGBullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				6BA7D1DB28CFE81B005F0FF4 /* Style */,
 				CD405EFA2536AA700062B1CC /* RGBullsEyeApp.swift */,
-				CD405EFC2536AA700062B1CC /* ContentView.swift */,
+				6BA7D1DE28D13625005F0FF4 /* View */,
 				CDF08BAC253E84F10061DB4A /* Model */,
-				CD405EFE2536AA720062B1CC /* Assets.xcassets */,
 				CD405F032536AA720062B1CC /* Info.plist */,
+				6BA7D1D528CFE28B005F0FF4 /* Assets.xcassets */,
 				CD405F002536AA720062B1CC /* Preview Content */,
 			);
 			path = RGBullsEye;
@@ -82,6 +109,7 @@
 				CD25DEBE253C26A200A218D4 /* Game.swift */,
 				CD25DEC2253C279400A218D4 /* RGB.swift */,
 				CD25DEC5253C299400A218D4 /* ColorExtension.swift */,
+				6BA7D1D928CFE411005F0FF4 /* ViewExtension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,8 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA7D1D628CFE28B005F0FF4 /* Assets.xcassets in Resources */,
 				CD405F022536AA720062B1CC /* Preview Assets.xcassets in Resources */,
-				CD405EFF2536AA720062B1CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,9 +207,13 @@
 			files = (
 				CD405EFD2536AA700062B1CC /* ContentView.swift in Sources */,
 				CD25DEBF253C26A200A218D4 /* Game.swift in Sources */,
+				6BA7D1E028D13639005F0FF4 /* BevelText.swift in Sources */,
 				CD405EFB2536AA700062B1CC /* RGBullsEyeApp.swift in Sources */,
+				6BA7D1DA28CFE411005F0FF4 /* ViewExtension.swift in Sources */,
 				CD25DEC3253C279400A218D4 /* RGB.swift in Sources */,
 				CD25DEC6253C299400A218D4 /* ColorExtension.swift in Sources */,
+				6BA7D1DD28CFE82D005F0FF4 /* NeuButtonStyle.swift in Sources */,
+				6BA7D1D828CFE2B1005F0FF4 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
